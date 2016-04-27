@@ -15,7 +15,12 @@ const ONETHINK_ADDON_PATH = './Addons/';
  * 系统公共库文件
  * 主要定义系统公共函数库
  */
-
+/*
+ * 打印变量
+ */
+function p($param) {
+    dump($param, TRUE, '<pre>', FALSE);
+}
 /**
  * 检测用户是否登录
  * @return integer 0-未登录，大于0-当前登录用户ID
