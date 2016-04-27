@@ -31,7 +31,7 @@
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
-            <a class="brand" href="<?php echo U('index/index');?>">OneThink</a>
+            <a class="brand" href="<?php echo U('index/index');?>">Two</a>
             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -54,7 +54,7 @@
                             </ul>
                         </li>
                     </ul>
-                <?php else: ?>
+                    <?php else: ?>
                     <ul class="nav" style="margin-right:0">
                         <li>
                             <a href="<?php echo U('User/login');?>">登录</a>
@@ -132,7 +132,7 @@
     ================================================== -->
     <footer class="footer">
       <div class="container">
-          <p> 本站由 <strong><a href="http://www.onethink.cn" target="_blank">OneThink</a></strong> 强力驱动</p>
+          <p> 本站由 <strong><a href="http://www.onethink.cn" target="_blank">Two</a></strong> 强力驱动</p>
       </div>
     </footer>
 
@@ -140,7 +140,7 @@
 (function(){
 	var ThinkPHP = window.Think = {
 		"ROOT"   : "/two", //当前网站地址
-		"APP"    : "/two/index.php?s=", //当前项目地址
+		"APP"    : "/two", //当前项目地址
 		"PUBLIC" : "/two/Public", //项目公共目录地址
 		"DEEP"   : "<?php echo C('URL_PATHINFO_DEPR');?>", //PATHINFO分割符
 		"MODEL"  : ["<?php echo C('URL_MODEL');?>", "<?php echo C('URL_CASE_INSENSITIVE');?>", "<?php echo C('URL_HTML_SUFFIX');?>"],

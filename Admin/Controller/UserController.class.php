@@ -133,7 +133,7 @@ class UserController extends AdminController {
         $this->meta_title = '用户行为';
         $this->display();
     }
-
+    
     /**
      * 新增行为
      * @author huajie <banhuajie@163.com>
