@@ -40,4 +40,4 @@ define('RUNTIME_PATH', './Cache/');
  * 引入核心入口
  * ThinkPHP亦可移动到WEB以外的目录
  */
-require './ThinkPHP/ThinkPHP.php';
+require './Core/core.php';
